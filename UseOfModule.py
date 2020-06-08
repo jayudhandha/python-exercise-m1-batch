@@ -1,10 +1,14 @@
-import Greetings as gt
+# Fully import
+# import Greetings as gt
 
-gt.morning()
+# gt.morning()
 
-gt.evening()
+# gt.evening()
 
-gt.night()
+# gt.night()
 
-# You need to create calculator module
+# Partial Import
+from Greetings import morning
 
+morning()
+night()
